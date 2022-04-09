@@ -1,0 +1,150 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.4rem;
+  margin-bottom: 0.85em;
+}
+
+.logo {
+  text-align: center;
+}
+.logo a{
+  text-decoration: none;
+  color: black
+}
+
+.intro {
+  display: grid;
+  place-items: center;
+  margin: 6em auto;
+  text-align: center;
+
+}
+
+.intro-img {
+  max-width: 20em;
+  margin-bottom: 2em;
+}
+
+.intro-title {
+  margin-bottom: 0.5em;
+}
+
+.intro-subtitle {
+  margin: 0 1em 1em;
+}
+
+.intro-subtitle a {
+  color: black;
+  text-decoration: none;
+}
+
+.intro-socials-header {
+  margin: 2em 0 1em;
+  font-weight: bold;
+}
+
+.intro-socials ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.intro-socials a {
+  display: flex;
+  text-decoration: none;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid black;
+  background: transparent;
+  font-size: 4em;
+  color: black;
+  transition: .3s;
+}
+
+.intro-socials a:hover {
+  transform: scale(1.1);
+  border: none;
+}
+
+.ig:hover {
+  background: #8a3ab9;
+  color: white;
+}
+
+.twitter:hover {
+  background: #1DA1F2;
+  color: white;
+}
+
+.linkedin:hover {
+  background: #0A66C2;
+  color: white;
+}
+
+.github:hover {
+  background: black;
+  color: white;
+}
+
+
+.about-me {
+  display: grid;
+  place-items: center;
+  padding: 6em 0;
+  background-color: #f9f9f9;
+
+}
+
+.about-me-title {
+  margin-bottom: 1em;
+}
+
+.about-me-image {
+  max-width: 25em;
+  vertical-align: middle;
+  margin-bottom: 4em;
+}
+
+.about-me-desc {
+  text-align: justify;
+  max-width: 40em;
+  margin: 0 2em;
+}
+
+
+
+
